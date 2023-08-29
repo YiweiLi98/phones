@@ -10,7 +10,7 @@ const HttpError = require('./models/http-error');
 const cors = require('cors');
 
 mongoose.connect(
-  'mongodb://localhost:27017/comp5347'
+  'mongodb://127.0.0.1:27017/comp5347'
 ).then(() => {
     console.log('Connected to database!')
 }).catch(() => {
